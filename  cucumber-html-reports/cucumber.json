@@ -1,0 +1,274 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-10-16T05:40:07.089Z",
+        "before": [
+          {
+            "result": {
+              "duration": 290024800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "DemoBlaze_StepDefinition.InitailSetUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Purchase functionality of online products",
+        "description": "",
+        "id": "purchase-of-online-products-through-product-categories:-phones--laptops-and-monitors;purchase-functionality-of-online-products",
+        "after": [
+          {
+            "result": {
+              "duration": 4608800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "DemoBlaze_StepDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12882181300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on landing page of online shop demoblaze",
+            "match": {
+              "location": "DemoBlaze_StepDefinition.i_am_on_landing_page_of_online_shop_demoblaze()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8716435400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "navigate to Laptop and select Sony vaio i5 product",
+            "match": {
+              "location": "DemoBlaze_StepDefinition.navigate_to_Laptop_and_select_Sony_vaio_i_product()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3186982300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "click on add to cart",
+            "match": {
+              "location": "DemoBlaze_StepDefinition.click_on_add_to_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3041952800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "accept pop up confirmation",
+            "match": {
+              "location": "DemoBlaze_StepDefinition.accept_pop_up_confirmation()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5038310000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "click on home page icon",
+            "match": {
+              "location": "DemoBlaze_StepDefinition.click_on_home_page_icon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8305374800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "navigate to Laptop and select Dell i7 8gb product",
+            "match": {
+              "location": "DemoBlaze_StepDefinition.navigate_to_Laptop_and_select_Dell_i_gb_product()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3208866800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "click on add to cart",
+            "match": {
+              "location": "DemoBlaze_StepDefinition.click_on_add_to_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3039805300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "accept pop up confirmation",
+            "match": {
+              "location": "DemoBlaze_StepDefinition.accept_pop_up_confirmation()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7980579500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "click on cart",
+            "match": {
+              "location": "DemoBlaze_StepDefinition.click_on_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3124878000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "click on Delete Dell i7 8gb from cart",
+            "match": {
+              "location": "DemoBlaze_StepDefinition.click_on_Delete_Dell_i_gb_from_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11397014000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "click on Place order",
+            "match": {
+              "location": "DemoBlaze_StepDefinition.click_on_Place_order()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 19796114900,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "fill in all web form fields",
+            "match": {
+              "location": "DemoBlaze_StepDefinition.fill_in_all_web_form_fields(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "name",
+                  "country",
+                  "city",
+                  "creditcard",
+                  "month",
+                  "year"
+                ]
+              },
+              {
+                "cells": [
+                  "Arun",
+                  "india",
+                  "noida",
+                  "5625625655",
+                  "4",
+                  "2020"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3113772600,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "click on Purchase",
+            "match": {
+              "location": "DemoBlaze_StepDefinition.click_on_Purchase()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3086698100,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "capture and log purchase Id and Amount",
+            "match": {
+              "location": "DemoBlaze_StepDefinition.capture_and_log_purchase_Id_and_Amount()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8647300,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "verify that purchase amount equals expected",
+            "match": {
+              "location": "DemoBlaze_StepDefinition.verify_that_purchase_amount_equals_expected()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5834465000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "click on ok",
+            "match": {
+              "location": "DemoBlaze_StepDefinition.click_on_ok()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Demo"
+          }
+        ]
+      }
+    ],
+    "name": "Purchase of online products through product categories: Phones, Laptops and Monitors",
+    "description": "",
+    "id": "purchase-of-online-products-through-product-categories:-phones--laptops-and-monitors",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Feature_Files/Test.feature",
+    "tags": [
+      {
+        "name": "@Demo",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
